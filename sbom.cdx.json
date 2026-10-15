@@ -1,0 +1,193 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:5860e663-eb1a-5cbe-ad43-a7409934e33a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:20:56Z",
+    "component": {
+      "type": "application",
+      "name": "PRESTASHOP",
+      "version": "3fb8300b6343",
+      "bom-ref": "pkg:generic/anticloud/PRESTASHOP@3fb8300b6343",
+      "purl": "pkg:generic/anticloud/PRESTASHOP@3fb8300b6343",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "3fb8300b6343baefcf57bec5b6a9c188a2177d57"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@playwright/test",
+      "version": "^1.58.1",
+      "purl": "pkg:npm/@playwright/test@^1.58.1",
+      "bom-ref": "npm/@playwright/test@^1.58.1"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "^1.7.9",
+      "purl": "pkg:npm/axios@^1.7.9",
+      "bom-ref": "npm/axios@^1.7.9"
+    },
+    {
+      "type": "library",
+      "name": "laravel-vite-plugin",
+      "version": "^1.0",
+      "purl": "pkg:npm/laravel-vite-plugin@^1.0",
+      "bom-ref": "npm/laravel-vite-plugin@^1.0"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^6.4.2",
+      "purl": "pkg:npm/vite@^6.4.2",
+      "bom-ref": "npm/vite@^6.4.2"
+    },
+    {
+      "type": "library",
+      "name": "@vee-validate/i18n",
+      "version": "^4.9.1",
+      "purl": "pkg:npm/@vee-validate/i18n@^4.9.1",
+      "bom-ref": "npm/@vee-validate/i18n@^4.9.1"
+    },
+    {
+      "type": "library",
+      "name": "@vee-validate/rules",
+      "version": "^4.9.1",
+      "purl": "pkg:npm/@vee-validate/rules@^4.9.1",
+      "bom-ref": "npm/@vee-validate/rules@^4.9.1"
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-vue",
+      "version": "^5.2.4",
+      "purl": "pkg:npm/@vitejs/plugin-vue@^5.2.4",
+      "bom-ref": "npm/@vitejs/plugin-vue@^5.2.4"
+    },
+    {
+      "type": "library",
+      "name": "mitt",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/mitt@^3.0.0",
+      "bom-ref": "npm/mitt@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "vee-validate",
+      "version": "^4.9.1",
+      "purl": "pkg:npm/vee-validate@^4.9.1",
+      "bom-ref": "npm/vee-validate@^4.9.1"
+    },
+    {
+      "type": "library",
+      "name": "vue-flatpickr",
+      "version": "^2.3.0",
+      "purl": "pkg:npm/vue-flatpickr@^2.3.0",
+      "bom-ref": "npm/vue-flatpickr@^2.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@tailwindcss/vite",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/@tailwindcss/vite@^4.0.0",
+      "bom-ref": "npm/@tailwindcss/vite@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^22.7.8",
+      "purl": "pkg:npm/@types/node@^22.7.8",
+      "bom-ref": "npm/@types/node@^22.7.8"
+    },
+    {
+      "type": "library",
+      "name": "dotenv",
+      "version": "^16.4.7",
+      "purl": "pkg:npm/dotenv@^16.4.7",
+      "bom-ref": "npm/dotenv@^16.4.7"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^3.8.2",
+      "purl": "pkg:npm/prettier@^3.8.2",
+      "bom-ref": "npm/prettier@^3.8.2"
+    },
+    {
+      "type": "library",
+      "name": "tailwindcss",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/tailwindcss@^4.0.0",
+      "bom-ref": "npm/tailwindcss@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.7.2",
+      "purl": "pkg:npm/typescript@^5.7.2",
+      "bom-ref": "npm/typescript@^5.7.2"
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "^3.5.13",
+      "purl": "pkg:npm/vue@^3.5.13",
+      "bom-ref": "npm/vue@^3.5.13"
+    },
+    {
+      "type": "library",
+      "name": "flatpickr",
+      "version": "^4.6.13",
+      "purl": "pkg:npm/flatpickr@^4.6.13",
+      "bom-ref": "npm/flatpickr@^4.6.13"
+    },
+    {
+      "type": "library",
+      "name": "laravel-echo",
+      "version": "^2.5.0",
+      "purl": "pkg:npm/laravel-echo@^2.5.0",
+      "bom-ref": "npm/laravel-echo@^2.5.0"
+    },
+    {
+      "type": "library",
+      "name": "pusher-js",
+      "version": "^8.6.0",
+      "purl": "pkg:npm/pusher-js@^8.6.0",
+      "bom-ref": "npm/pusher-js@^8.6.0"
+    },
+    {
+      "type": "library",
+      "name": "vuedraggable",
+      "version": "^4.1.0",
+      "purl": "pkg:npm/vuedraggable@^4.1.0",
+      "bom-ref": "npm/vuedraggable@^4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "vue-cal",
+      "version": "^4.9.0",
+      "purl": "pkg:npm/vue-cal@^4.9.0",
+      "bom-ref": "npm/vue-cal@^4.9.0"
+    }
+  ]
+}
