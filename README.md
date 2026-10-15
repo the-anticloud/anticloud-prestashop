@@ -1,22 +1,18 @@
 # PRESTASHOP
 
-> ➡️ Website | Documentation | Installation Guide | Docker Installation | Forums | Community ⬅️
+> About PrestaShop PrestaShop is an Open Source e-commerce web application, committed to providing the best shopping cart experience for both merchants and customers. It is written in PHP, is highly customizable, supports all the major payment services, is translated in many languages and localized for many countries, has a fully responsive design (both front and back office), etc. [See all the available features][available-features].
 
-**Category:** ONLINE_RETAIL · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/bagisto/bagisto · **Pinned commit:** `3fb8300b6343baefcf57bec5b6a9c188a2177d57` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/bagisto/bagisto` as the implementation for the `PRESTASHOP` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** ONLINE_RETAIL · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/PrestaShop/PrestaShop · **Pinned commit:** `8cc8750d0c76f4d189a7091176bbdade5c9115d8` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-➡️ Website | Documentation | Installation Guide | Docker Installation | Forums | Community ⬅️
+About PrestaShop PrestaShop is an Open Source e-commerce web application, committed to providing the best shopping cart experience for both merchants and customers. It is written in PHP, is highly customizable, supports all the major payment services, is translated in many languages and localized for many countries, has a fully responsive design (both front and back office), etc. [See all the available features][available-features].
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-```
-# See the upstream README (linked above) for build steps.
-```
+```bash
 
 ## Usage
 
@@ -62,7 +58,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-618dce0db32e280fb1eb08a3c9d71e0f57c5ec31fb5a9b914a72e52eb3a709e0
+75fe8d38a23baaf5745608cdb8b935e4bfe9b43ba6fd0a58018c2f89c72a8d11
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

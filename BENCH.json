@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "PRESTASHOP",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ONLINE_RETAIL\\PRESTASHOP\\UPSTREAM_CLONE",
   "git": {
-   "head": "3fb8300b6343baefcf57bec5b6a9c188a2177d57",
-   "url": "https://github.com/bagisto/bagisto",
-   "branch": "2.5",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12"
+   "url": "https://github.com/PrestaShop/PrestaShop",
+   "head": "8cc8750d0c76f4d189a7091176bbdade5c9115d8",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/bagisto/bagisto"
   }
  },
  "metrics": {
